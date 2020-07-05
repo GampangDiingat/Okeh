@@ -1,0 +1,44 @@
+*
+{
+    box-sizing: border-box;
+    
+}
+
+@media screen and (max-width: 675px){
+
+    .hamburger
+    {
+        display: block;
+    }
+    ul li
+    {
+        display: none;
+    }
+
+.menu-section
+{
+    width: 50%;
+    background: gray;
+    height: 300px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+}
+
+
+@media screen and (max-width: 550px){
+
+    .menu-section
+{
+    width: 100%;
+    background: gray;
+    height: 300px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+}
